@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-
-'''
-This is a VALID convolution on grayscale images
-'''
+"""Performs a valid convolution on grayscale images."""
 
 import numpy as np
 

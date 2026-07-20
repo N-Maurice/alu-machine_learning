@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-'''
-Performs a SAME convolution on grayscale images.
-'''
+"""Performs a same convolution on grayscale images."""
 
 import numpy as np
 
 
 def convolve_grayscale_same(images, kernel):
-    '''
+    """
     Performs a same convolution on grayscale images.
 
     Args:
@@ -16,7 +14,7 @@ def convolve_grayscale_same(images, kernel):
 
     Returns:
         numpy.ndarray containing the convolved images.
-    '''
+    """
     m, h, w = images.shape
     kh, kw = kernel.shape
 

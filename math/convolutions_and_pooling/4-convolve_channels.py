@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
+"""Performs a convolution on images with channels."""
 
 import numpy as np
-"""
-Performing a convolution on images with channels.
-"""
+
 
 def convolve_channels(images, kernel, padding='same', stride=(1, 1)):
     """

@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
+"""Performs pooling on images."""
 
 import numpy as np
-"""
-Performing pooling on images.
-"""
+
 
 def pool(images, kernel_shape, stride, mode='max'):
     """

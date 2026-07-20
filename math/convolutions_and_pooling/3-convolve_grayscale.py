@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
+"""Performs a convolution on grayscale images."""
 
 import numpy as np
-"""
-Performing a convolution on grayscale images.
-"""
+
 
 def convolve_grayscale(images, kernel, padding='same', stride=(1, 1)):
     """

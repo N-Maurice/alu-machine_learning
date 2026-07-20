@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
+"""Performs a convolution on images using multiple kernels."""
 
 import numpy as np
-"""
-Performing a convolution on images using multiple kernels.
-"""
+
 
 def convolve(images, kernels, padding='same', stride=(1, 1)):
     """
